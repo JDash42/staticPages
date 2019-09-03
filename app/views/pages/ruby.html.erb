@@ -1,2 +1,16 @@
-<h1>Pages#ruby</h1>
-<p>Find me in app/views/pages/ruby.html.erb</p>
+<h1>Ruby</h1>
+<p>String interpolation: You frist declare a string by assigning it to a variable, and you then place it within another string with the syntax #{myString}</p>
+<p>Declaring and adding to an array: You may declare an array by spliting strings, asigning values in square brackets, or converting ranges with the "to_a" method</p>
+<p>You may then add to said array by using the "push()" method or the "<<" syntax for push</p>
+<p>Iterating with each: you use the ".each" method on a range, followed by the instruction you wish to iterate upon said range</p>
+<p>Declare a hash: type a name for the hash and asign it curly brackets, ex: pages = {}, to add to the hash you can use the following: myHash["key1"] = "value1"</p>
+<p>Interate a hash with each: There are a few ways, lets say our hash is called duHash and it contains the value 1 with the key a and the value 2 with the key b</p>
+<p>You may then use duHash.each {|key| puts key] to iterate through the keys, a and b</p>
+<p>duHash.each{|value| puts value} will go through every value, 1 and 2.</p>
+<p>or you can use duHash.each {|key,value| puts "#{key} is #{value}"} to go through both keys and values</p>
+<p>What is a block? Blocks are functions, they are enclosed between brackets "{}" and their arguments are defined between pipe characters "||" </p>
+<p>Ruby variable naming conventions: loval variables start with a lowercase, Global variables start with a "$", instance variables start with "@" and class variables start with "@@".</p>
+<p>What are attr_reader, attr_writer and attr_accesor, what are they for?</p>
+<p>Attr_reader easily gives getters for the attributes you pass to it</p>
+<p>Attr_writer assigns setters to attributes you declare</p>
+<p>Attr_accesor gives both getters and setters to the attributes it has assigned</p>
