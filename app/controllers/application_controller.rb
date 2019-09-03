@@ -5,13 +5,4 @@ class ApplicationController < ActionController::Base
     render html: "welcome home"
   end
   
-  def basics
-  end
-  
-  def ruby
-  end
-  
-  def git
-  end
-
 end
