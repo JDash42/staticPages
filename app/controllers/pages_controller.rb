@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def home
-    render html: "hi"
+     @title = 'Home'
+     @date = Time.now
   end
 
   def basics
